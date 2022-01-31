@@ -71,7 +71,7 @@ async function fetchPriceOnCoinGecko( coin, defaultCurrency ) {
   }
 }
 
-// Run the refresh every minute | Change it as you want or remove cron for one-shot refresh
-cron.schedule( '* * * * *', () => {
+// Run the refresh at every 5th minute | Change it as you want or remove cron for one-shot refresh
+cron.schedule( '*/5 * * * *', () => {
   refreshDatabase()
 } )
