@@ -1,4 +1,4 @@
-# Notion API - Crypto/Foreign Currency Prices
+# Notion API - Crypto Prices
 
 Based on the original repository from [Broto](https://github.com/brotoo25)/[Notion-API-Currencies](https://github.com/brotoo25/Notion-API-Currencies)
 
